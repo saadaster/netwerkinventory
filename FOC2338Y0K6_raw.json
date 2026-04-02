@@ -1,0 +1,77 @@
+{
+    "show_version": {
+        "version": {
+            "version_short": "15.2",
+            "platform": "C2960",
+            "version": "15.2(2)E8",
+            "image_id": "C2960-LANBASEK9-M",
+            "label": "RELEASE SOFTWARE (fc1)",
+            "os": "IOS",
+            "image_type": "production image",
+            "copyright_years": "1986-2018",
+            "compiled_date": "Mon 22-Jan-18 07:09",
+            "compiled_by": "prod_rel_team",
+            "rom": "Bootstrap program is C2960 boot loader",
+            "bootldr": "C2960 Boot Loader (C2960-HBOOT-M) Version 15.0(2r)EZ1, RELEASE SOFTWARE (fc1)",
+            "hostname": "Switch",
+            "uptime": "1 hour, 9 minutes",
+            "returned_to_rom_by": "power-on",
+            "system_image": "flash:/c2960-lanbasek9-mz.152-2.E8/c2960-lanbasek9-mz.152-2.E8.bin",
+            "last_reload_reason": "power-on",
+            "chassis": "WS-C2960+24TC-L",
+            "main_mem": "131072",
+            "processor_type": "PowerPC405",
+            "rtr_type": "WS-C2960+24TC-L",
+            "chassis_sn": "FOC2338Y0K6",
+            "number_of_intfs": {
+                "Virtual Ethernet": "1",
+                "FastEthernet": "24",
+                "Gigabit Ethernet": "2"
+            },
+            "mem_size": {
+                "flash-simulated non-volatile configuration": "64"
+            },
+            "curr_config_register": "0xF",
+            "switch_num": {
+                "1": {
+                    "ports": "26",
+                    "model": "WS-C2960+24TC-L",
+                    "sw_ver": "15.2(2)E8",
+                    "sw_image": "C2960-LANBASEK9-M",
+                    "active": true,
+                    "mac_address": "4C:71:0C:52:9B:80",
+                    "mb_assembly_num": "73-15620-01",
+                    "power_supply_part_nr": "341-0097-03",
+                    "mb_sn": "FOC23365ZG8",
+                    "power_supply_sn": "ALD2329B0PL",
+                    "model_rev_num": "J0",
+                    "mb_rev_num": "B0",
+                    "model_num": "WS-C2960+24TC-L",
+                    "system_sn": "FOC2338Y0K6",
+                    "top_assembly_part_num": "800-40261-02",
+                    "top_assembly_rev_num": "E0",
+                    "version_id": "V02",
+                    "clei_code_num": "CMMKV00ARB",
+                    "hb_rev_num": "0x0B"
+                }
+            }
+        }
+    },
+    "show_inventory": {
+        "slot": {
+            "1": {
+                "rp": {
+                    "WS-C2960+24TC-L": {
+                        "name": "1",
+                        "descr": "WS-C2960+24TC-L",
+                        "pid": "WS-C2960+24TC-L",
+                        "vid": "V02  ",
+                        "sn": "FOC2338Y0K6"
+                    }
+                }
+            }
+        }
+    },
+    "show_version_raw": "Cisco IOS Software, C2960 Software (C2960-LANBASEK9-M), Version 15.2(2)E8, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2018 by Cisco Systems, Inc.\nCompiled Mon 22-Jan-18 07:09 by prod_rel_team\n\nROM: Bootstrap program is C2960 boot loader\nBOOTLDR: C2960 Boot Loader (C2960-HBOOT-M) Version 15.0(2r)EZ1, RELEASE SOFTWARE (fc1)\n\nSwitch uptime is 1 hour, 9 minutes\nSystem returned to ROM by power-on\nSystem image file is \"flash:/c2960-lanbasek9-mz.152-2.E8/c2960-lanbasek9-mz.152-2.E8.bin\"\nLast reload reason: power-on\n\n\n\nThis product contains cryptographic features and is subject to United\nStates and local country laws governing import, export, transfer and\nuse. Delivery of Cisco cryptographic products does not imply\nthird-party authority to import, export, distribute or use encryption.\nImporters, exporters, distributors and users are responsible for\ncompliance with U.S. and local country laws. By using this product you\nagree to comply with applicable laws and regulations. If you are unable\nto comply with U.S. and local laws, return this product immediately.\n\nA summary of U.S. laws governing Cisco cryptographic products may be found at:\nhttp://www.cisco.com/wwl/export/crypto/tool/stqrg.html\n\nIf you require further assistance please contact us by sending email to\nexport@cisco.com.\n\ncisco WS-C2960+24TC-L (PowerPC405) processor (revision J0) with 131072K bytes of memory.\nProcessor board ID FOC2338Y0K6\nLast reset from power-on\n1 Virtual Ethernet interface\n24 FastEthernet interfaces\n2 Gigabit Ethernet interfaces\nThe password-recovery mechanism is enabled.\n\n64K bytes of flash-simulated non-volatile configuration memory.\nBase ethernet MAC Address       : 4C:71:0C:52:9B:80\nMotherboard assembly number     : 73-15620-01\nPower supply part number        : 341-0097-03\nMotherboard serial number       : FOC23365ZG8\nPower supply serial number      : ALD2329B0PL\nModel revision number           : J0\nMotherboard revision number     : B0\nModel number                    : WS-C2960+24TC-L\nSystem serial number            : FOC2338Y0K6\nTop Assembly Part Number        : 800-40261-02\nTop Assembly Revision Number    : E0\nVersion ID                      : V02\nCLEI Code Number                : CMMKV00ARB\nHardware Board Revision Number  : 0x0B\n\n\nSwitch Ports Model                     SW Version            SW Image                 \n------ ----- -----                     ----------            ----------               \n*    1 26    WS-C2960+24TC-L           15.2(2)E8             C2960-LANBASEK9-M        \n\n\nConfiguration register is 0xF\n",
+    "show_inventory_raw": "NAME: \"1\", DESCR: \"WS-C2960+24TC-L\"\nPID: WS-C2960+24TC-L   , VID: V02  , SN: FOC2338Y0K6\n\n"
+}

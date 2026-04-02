@@ -1,0 +1,79 @@
+{
+    "show_version": {
+        "version": {
+            "version_short": "12.2",
+            "platform": "C3560",
+            "version": "12.2(55)SE5",
+            "image_id": "C3560-IPSERVICESK9-M",
+            "os": "IOS",
+            "image_type": "production image",
+            "compiled_date": "Thu 09-Feb-12 18:46",
+            "compiled_by": "prod_rel_team",
+            "image": {
+                "text_base": "0x01000000",
+                "data_base": "0x02F00000"
+            },
+            "rom": "Bootstrap program is C3560 boot loader",
+            "bootldr": "C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(53r)SEY4, RELEASE SOFTWARE (fc1)",
+            "hostname": "Switch",
+            "uptime": "2 minutes",
+            "returned_to_rom_by": "power-on",
+            "system_image": "flash:/c3560-ipservicesk9-mz.122-55.SE5/c3560-ipservicesk9-mz.122-55.SE5.bin",
+            "chassis": "WS-C3560V2-24PS",
+            "main_mem": "131072",
+            "processor_type": "PowerPC405",
+            "rtr_type": "WS-C3560V2-24PS",
+            "chassis_sn": "FDO1646X0BH",
+            "last_reload_reason": "power-on",
+            "number_of_intfs": {
+                "Virtual Ethernet": "1",
+                "FastEthernet": "24",
+                "Gigabit Ethernet": "2"
+            },
+            "mem_size": {
+                "flash-simulated non-volatile configuration": "512"
+            },
+            "curr_config_register": "0xF",
+            "switch_num": {
+                "1": {
+                    "ports": "26",
+                    "model": "WS-C3560V2-24PS",
+                    "sw_ver": "12.2(55)SE5",
+                    "sw_image": "C3560-IPSERVICESK9-M",
+                    "active": true,
+                    "mac_address": "CC:D5:39:AA:D0:80",
+                    "mb_assembly_num": "73-12634-01",
+                    "power_supply_part_nr": "341-0266-03",
+                    "mb_sn": "FDO164603A8",
+                    "power_supply_sn": "LIT16410KSL",
+                    "model_rev_num": "Q0",
+                    "mb_rev_num": "D0",
+                    "model_num": "WS-C3560V2-24PS-E",
+                    "system_sn": "FDO1646X0BH",
+                    "top_assembly_part_num": "800-33976-03",
+                    "top_assembly_rev_num": "A0",
+                    "version_id": "V08",
+                    "clei_code_num": "COMKL10DRB",
+                    "hb_rev_num": "0x02"
+                }
+            }
+        }
+    },
+    "show_inventory": {
+        "slot": {
+            "1": {
+                "rp": {
+                    "WS-C3560V2-24PS-E": {
+                        "name": "1",
+                        "descr": "WS-C3560V2-24PS",
+                        "pid": "WS-C3560V2-24PS-E",
+                        "vid": "V08  ",
+                        "sn": "FDO1646X0BH"
+                    }
+                }
+            }
+        }
+    },
+    "show_version_raw": "Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE5, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2012 by Cisco Systems, Inc.\nCompiled Thu 09-Feb-12 18:46 by prod_rel_team\nImage text-base: 0x01000000, data-base: 0x02F00000\n\nROM: Bootstrap program is C3560 boot loader\nBOOTLDR: C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(53r)SEY4, RELEASE SOFTWARE (fc1)\n\nSwitch uptime is 2 minutes\nSystem returned to ROM by power-on\nSystem image file is \"flash:/c3560-ipservicesk9-mz.122-55.SE5/c3560-ipservicesk9-mz.122-55.SE5.bin\"\n\n\nThis product contains cryptographic features and is subject to United\nStates and local country laws governing import, export, transfer and\nuse. Delivery of Cisco cryptographic products does not imply\nthird-party authority to import, export, distribute or use encryption.\nImporters, exporters, distributors and users are responsible for\ncompliance with U.S. and local country laws. By using this product you\nagree to comply with applicable laws and regulations. If you are unable\nto comply with U.S. and local laws, return this product immediately.\n\nA summary of U.S. laws governing Cisco cryptographic products may be found at:\nhttp://www.cisco.com/wwl/export/crypto/tool/stqrg.html\n\nIf you require further assistance please contact us by sending email to\nexport@cisco.com.\n\ncisco WS-C3560V2-24PS (PowerPC405) processor (revision Q0) with 131072K bytes of memory.\nProcessor board ID FDO1646X0BH\nLast reset from power-on\n1 Virtual Ethernet interface\n24 FastEthernet interfaces\n2 Gigabit Ethernet interfaces\nThe password-recovery mechanism is enabled.\n\n512K bytes of flash-simulated non-volatile configuration memory.\nBase ethernet MAC Address       : CC:D5:39:AA:D0:80\nMotherboard assembly number     : 73-12634-01\nPower supply part number        : 341-0266-03\nMotherboard serial number       : FDO164603A8\nPower supply serial number      : LIT16410KSL\nModel revision number           : Q0\nMotherboard revision number     : D0\nModel number                    : WS-C3560V2-24PS-E\nSystem serial number            : FDO1646X0BH\nTop Assembly Part Number        : 800-33976-03\nTop Assembly Revision Number    : A0\nVersion ID                      : V08\nCLEI Code Number                : COMKL10DRB\nHardware Board Revision Number  : 0x02\n\n\nSwitch Ports Model              SW Version            SW Image                 \n------ ----- -----              ----------            ----------               \n*    1 26    WS-C3560V2-24PS    12.2(55)SE5           C3560-IPSERVICESK9-M     \n\n\nConfiguration register is 0xF\n",
+    "show_inventory_raw": "NAME: \"1\", DESCR: \"WS-C3560V2-24PS\"\nPID: WS-C3560V2-24PS-E , VID: V08  , SN: FDO1646X0BH\n\n"
+}
