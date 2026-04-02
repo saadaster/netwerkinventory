@@ -1,0 +1,95 @@
+{
+    "show_version": {
+        "version": {
+            "version_short": "15.4",
+            "platform": "C1900",
+            "version": "15.4(3)M4",
+            "image_id": "C1900-UNIVERSALK9-M",
+            "label": "RELEASE SOFTWARE (fc1)",
+            "os": "IOS",
+            "image_type": "production image",
+            "copyright_years": "1986-2015",
+            "compiled_date": "Sun 27-Sep-15 05:31",
+            "compiled_by": "prod_rel_team",
+            "rom": "System Bootstrap, Version 15.0(1r)M16, RELEASE SOFTWARE (fc1)",
+            "hostname": "Router",
+            "uptime": "12 minutes",
+            "returned_to_rom_by": "power-on",
+            "system_image": "flash0:c1900-universalk9-mz.SPA.154-3.M4.bin",
+            "last_reload_type": "Normal Reload",
+            "last_reload_reason": "power-on",
+            "chassis": "CISCO1941/K9",
+            "main_mem": "487424",
+            "processor_type": "revision 1.0",
+            "rtr_type": "CISCO1941/K9",
+            "chassis_sn": "FGL170310BM",
+            "number_of_intfs": {
+                "Gigabit Ethernet": "2",
+                "Serial(sync/async)": "2",
+                "terminal": "1"
+            },
+            "mem_size": {
+                "non-volatile configuration": "255"
+            },
+            "processor_board_flash": "250880K",
+            "license_udi": {},
+            "license_package": {
+                "ipbase": {
+                    "license_type": "Permanent",
+                    "license_level": "ipbasek9",
+                    "next_reload_license_level": "ipbasek9"
+                },
+                "security": {
+                    "license_type": "Permanent",
+                    "license_level": "securityk9",
+                    "next_reload_license_level": "securityk9"
+                },
+                "data": {
+                    "license_type": "None",
+                    "license_level": "None",
+                    "next_reload_license_level": "None"
+                },
+                "NtwkEss": {
+                    "license_type": "None",
+                    "license_level": "None",
+                    "next_reload_license_level": "None"
+                }
+            },
+            "curr_config_register": "0x2142"
+        }
+    },
+    "show_inventory": {
+        "main": {
+            "chassis": {
+                "CISCO1941/K9": {
+                    "name": "CISCO1941/K9",
+                    "descr": "CISCO1941/K9 chassis, Hw Serial#: FGL170310BM, Hw Revision: 1.0",
+                    "pid": "CISCO1941/K9",
+                    "vid": "V05 ",
+                    "sn": "FGL170310BM"
+                }
+            }
+        },
+        "slot": {
+            "0": {
+                "rp": {
+                    "CISCO1941/K9": {
+                        "subslot": {
+                            "0": {
+                                "HWIC-2T": {
+                                    "descr": "WAN Interface Card - HWIC Serial 2T",
+                                    "name": "WAN Interface Card - HWIC Serial 2T on Slot 0 SubSlot 0",
+                                    "pid": "HWIC-2T",
+                                    "sn": "FOC16453B3L",
+                                    "vid": "V04 "
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "show_version_raw": "Cisco IOS Software, C1900 Software (C1900-UNIVERSALK9-M), Version 15.4(3)M4, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2015 by Cisco Systems, Inc.\nCompiled Sun 27-Sep-15 05:31 by prod_rel_team\n\nROM: System Bootstrap, Version 15.0(1r)M16, RELEASE SOFTWARE (fc1)\n\nRouter uptime is 12 minutes\nSystem returned to ROM by power-on\n\nSystem image file is \"flash0:c1900-universalk9-mz.SPA.154-3.M4.bin\"\n\nLast reload type: Normal Reload\nLast reload reason: power-on\n\n\n\nThis product contains cryptographic features and is subject to United\n\nStates and local country laws governing import, export, transfer and\n\nuse. Delivery of Cisco cryptographic products does not imply\nthird-party authority to import, export, distribute or use encryption.\nImporters, exporters, distributors and users are responsible for\ncompliance with U.S. and local country laws. By using this product you\nagree to comply with applicable laws and regulations. If you are unable\nto comply with U.S. and local laws, return this product immediately.\n\nA summary of U.S. laws governing Cisco cryptographic products may be found at:\nhttp://www.cisco.com/wwl/export/crypto/tool/stqrg.html\n\nIf you require further assistance please contact us by sending email to\nexport@cisco.com.\n\nCisco CISCO1941/K9 (revision 1.0) with 487424K/36864K bytes of memory.\nProcessor board ID FGL170310BM\n2 Gigabit Ethernet interfaces\n2 Serial(sync/async) interfaces\n1 terminal line\n1 Virtual Private Network (VPN) Module\nDRAM configuration is 64 bits wide with parity disabled.\n255K bytes of non-volatile configuration memory.\n250880K bytes of ATA System CompactFlash 0 (Read/Write)\n\n\nLicense Info:\n\nLicense UDI:\n\n-------------------------------------------------\nDevice#\t  PID\t\t\tSN\n-------------------------------------------------\n*1  \t  CISCO1941/K9          FGL170310BM     \n\n\n\nTechnology Package License Information for Module:'c1900' \n\n\n------------------------------------------------------------------------\nTechnology    Technology-package                  Technology-package\n              Current              Type           Next reboot  \n------------------------------------------------------------------------\nipbase        ipbasek9             Permanent      ipbasek9\nsecurity      securityk9           Permanent      securityk9\ndata          None                 None           None\nNtwkEss       None                 None           None\n\nConfiguration register is 0x2142\n",
+    "show_inventory_raw": "NAME: \"CISCO1941/K9\", DESCR: \"CISCO1941/K9 chassis, Hw Serial#: FGL170310BM, Hw Revision: 1.0\"\nPID: CISCO1941/K9      , VID: V05 , SN: FGL170310BM\n\nNAME: \"WAN Interface Card - HWIC Serial 2T on Slot 0 SubSlot 0\", DESCR: \"WAN Interface Card - HWIC Serial 2T\"\n\nPID: HWIC-2T           , VID: V04 , SN: FOC16453B3L\n\nNAME: \"C1941/C2901 AC Power Supply\", DESCR: \"C1941/C2901 AC Power Supply\"\nPID: PWR-1941-2901-AC  , VID:    , SN:            \n\n\n"
+}
