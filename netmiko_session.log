@@ -1,0 +1,73 @@
+
+Router#
+Router#
+Router#terminal width 511
+Router#terminal length 0
+
+Router#
+Router#
+Router#
+Router#show version
+Cisco IOS Software, 2801 Software (C2801-TPGEN+IPBASE-M), Experimental Version 12.4(20070109:001739) [shgautam-update_v43_0 123]
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Mon 08-Jan-07 17:10 by shgautam
+
+ROM: System Bootstrap, Version 12.4(13r)T, RELEASE SOFTWARE (fc1)
+
+Router uptime is 33 minutes
+System returned to ROM by power-on
+System image file is "flash:c2801-tpgen+ipbase-mz.PAGENT.4.3.0"
+
+Cisco 2801 (revision 7.0) with 115712K/15360K bytes of memory.
+Processor board ID FCZ12019001
+2 FastEthernet interfaces
+2 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity disabled.
+191K bytes of NVRAM.
+63808K bytes of ATA CompactFlash (Read/Write)
+
+Configuration register is 0x2142
+
+Router#
+Router#show inventory
+NAME: "chassis", DESCR: "2801 chassis"
+PID: CISCO2801         , VID: V04 , SN: FCZ12019001
+
+NAME: "WIC/VIC/HWIC 3", DESCR: "WAN Interface Card - Serial 2T"
+PID: WIC-2T            , VID: V01, SN: 36172157   
+
+
+
+Router#
+Router#show version
+Cisco IOS Software, 2801 Software (C2801-TPGEN+IPBASE-M), Experimental Version 12.4(20070109:001739) [shgautam-update_v43_0 123]
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Mon 08-Jan-07 17:10 by shgautam
+
+ROM: System Bootstrap, Version 12.4(13r)T, RELEASE SOFTWARE (fc1)
+
+Router uptime is 33 minutes
+System returned to ROM by power-on
+System image file is "flash:c2801-tpgen+ipbase-mz.PAGENT.4.3.0"
+
+Cisco 2801 (revision 7.0) with 115712K/15360K bytes of memory.
+Processor board ID FCZ12019001
+2 FastEthernet interfaces
+2 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity disabled.
+191K bytes of NVRAM.
+63808K bytes of ATA CompactFlash (Read/Write)
+
+Configuration register is 0x2142
+
+Router#
+Router#show inventory
+NAME: "chassis", DESCR: "2801 chassis"
+PID: CISCO2801         , VID: V04 , SN: FCZ12019001
+
+NAME: "WIC/VIC/HWIC 3", DESCR: "WAN Interface Card - Serial 2T"
+PID: WIC-2T            , VID: V01, SN: 36172157   
+
+
+Router#
+Router#exit
