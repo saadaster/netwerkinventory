@@ -1,0 +1,56 @@
+{
+    "show_version": {
+        "version": {
+            "version_short": "12.2",
+            "platform": "C3560",
+            "version": "12.2(25)SEE3",
+            "image_id": "C3560-IPBASEK9-M",
+            "os": "IOS",
+            "image_type": "developer image",
+            "compiled_date": "Thu 22-Feb-07 15:39",
+            "compiled_by": "myl",
+            "image": {
+                "text_base": "0x00003000",
+                "data_base": "0x00FF46A8"
+            },
+            "rom": "Bootstrap program is C3560 boot loader",
+            "bootldr": "C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(25r)SEC, RELEASE SOFTWARE (fc4)",
+            "hostname": "Switch",
+            "uptime": "1 hour, 6 minutes",
+            "returned_to_rom_by": "power-on",
+            "system_image": "flash:c3560-ipbasek9-mz.122-25.SEE3/c3560-ipbasek9-mz.122-25.SEE3.bin",
+            "chassis": "WS-C3560-48PS",
+            "main_mem": "118784",
+            "processor_type": "PowerPC405",
+            "rtr_type": "WS-C3560-48PS",
+            "chassis_sn": "FDO1307Y3BT",
+            "last_reload_reason": "power-on",
+            "number_of_intfs": {
+                "Virtual Ethernet": "1",
+                "FastEthernet": "48",
+                "Gigabit Ethernet": "4"
+            },
+            "mem_size": {
+                "flash-simulated non-volatile configuration": "512"
+            },
+            "curr_config_register": "0xF"
+        }
+    },
+    "show_inventory": {
+        "slot": {
+            "1": {
+                "rp": {
+                    "WS-C3560-48PS-E": {
+                        "name": "1",
+                        "descr": "WS-C3560-48PS",
+                        "pid": "WS-C3560-48PS-E",
+                        "vid": "V06",
+                        "sn": "FDO1307Y3BT"
+                    }
+                }
+            }
+        }
+    },
+    "show_version_raw": "Cisco IOS Software, C3560 Software (C3560-IPBASEK9-M), Version 12.2(25)SEE3, RELEASE SOFTWARE (fc2)\nCopyright (c) 1986-2007 by Cisco Systems, Inc.\nCompiled Thu 22-Feb-07 15:39 by myl\nImage text-base: 0x00003000, data-base: 0x00FF46A8\n\nROM: Bootstrap program is C3560 boot loader\nBOOTLDR: C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(25r)SEC, RELEASE SOFTWARE (fc4)\n\nSwitch uptime is 1 hour, 5 minutes\nSystem returned to ROM by power-on\nSystem image file is \"flash:c3560-ipbasek9-mz.122-25.SEE3/c3560-ipbasek9-mz.122-25.SEE3.bin\"\n\n\nThis product contains cryptographic features and is subject to United\nStates and local country laws governing import, export, transfer and\nuse. Delivery of Cisco cryptographic products does not imply\nthird-party authority to import, export, distribute or use encryption.\nImporters, exporters, distributors and users are responsible for\ncompliance with U.S. and local country laws. By using this product you\nagree to comply with applicable laws and regulations. If you are unable\nto comply with U.S. and local laws, return this product immediately.\n\nA summary of U.S. laws governing Cisco cryptographic products may be found at:\nhttp://www.cisco.com/wwl/export/crypto/tool/stqrg.html\n\nIf you require further assistance please contact us by sending email to\nexport@cisco.com.\n\ncisco WS-C3560-48PS (PowerPC405) processor (revision R0) with 118784K/12280K bytes of memory.\nProcessor board ID FDO1307Y3BT\nLast reset from power-on\n1 Virtual Ethernet interface\n48 FastEthernet interfaces\n4 Gigabit Ethernet interfaces\nThe password-recovery mechanism is enabled.\n\n512K bytes of flash-simulated non-volatile configuration memory.\nBase ethernet MAC Address       : 00:24:F7:98:48:00\nMotherboard assembly number     : 73-9676-14\nPower supply part number        : 341-0029-05\nMotherboard serial number       : FDO130803ZG\nPower supply serial number      : LIT13010MBP\nModel revision number           : R0\nMotherboard revision number     : B0\nModel number                    : WS-C3560-48PS-E\nSystem serial number            : FDO1307Y3BT\nSFP Module assembly part number : 73-7757-03\nSFP Module revision Number      : A0\nSFP Module serial number        : FDO13070TL2\nTop Assembly Part Number        : 800-26378-04\nTop Assembly Revision Number    : C0\nVersion ID                      : V06\nCLEI Code Number                : COMU110ARA\nHardware Board Revision Number  : 0x01\n\n\nSwitch   Ports  Model              SW Version              SW Image            \n------   -----  -----              ----------              ----------          \n\n\nConfiguration register is 0xF",
+    "show_inventory_raw": "NAME: \"1\", DESCR: \"WS-C3560-48PS\"\nPID: WS-C3560-48PS-E   , VID: V06, SN: FDO1307Y3BT\n"
+}
