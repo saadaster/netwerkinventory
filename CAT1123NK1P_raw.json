@@ -1,0 +1,79 @@
+{
+    "show_version": {
+        "version": {
+            "version_short": "12.2",
+            "platform": "C3560",
+            "version": "12.2(55)SE11",
+            "image_id": "C3560-IPSERVICESK9-M",
+            "os": "IOS",
+            "image_type": "production image",
+            "compiled_date": "Wed 17-Aug-16 13:07",
+            "compiled_by": "prod_rel_team",
+            "image": {
+                "text_base": "0x01000000",
+                "data_base": "0x02F00000"
+            },
+            "rom": "Bootstrap program is C3560 boot loader",
+            "bootldr": "C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)",
+            "hostname": "Switch",
+            "uptime": "5 minutes",
+            "returned_to_rom_by": "power-on",
+            "system_image": "flash:/c3560-ipservicesk9-mz.122-55.SE11.bin",
+            "chassis": "WS-C3560-48PS",
+            "main_mem": "131072",
+            "processor_type": "PowerPC405",
+            "rtr_type": "WS-C3560-48PS",
+            "chassis_sn": "CAT1123NK1P",
+            "last_reload_reason": "power-on",
+            "number_of_intfs": {
+                "Virtual Ethernet": "1",
+                "FastEthernet": "48",
+                "Gigabit Ethernet": "4"
+            },
+            "mem_size": {
+                "flash-simulated non-volatile configuration": "512"
+            },
+            "curr_config_register": "0xF",
+            "switch_num": {
+                "1": {
+                    "ports": "52",
+                    "model": "WS-C3560-48PS",
+                    "sw_ver": "12.2(55)SE11",
+                    "sw_image": "C3560-IPSERVICESK9-M",
+                    "active": true,
+                    "mac_address": "00:1C:57:0E:81:00",
+                    "mb_assembly_num": "73-9676-12",
+                    "power_supply_part_nr": "341-0029-05",
+                    "mb_sn": "CAT11235BFG",
+                    "power_supply_sn": "LIT11190F33",
+                    "model_rev_num": "N0",
+                    "mb_rev_num": "B0",
+                    "model_num": "WS-C3560-48PS-S",
+                    "system_sn": "CAT1123NK1P",
+                    "top_assembly_part_num": "800-25859-03",
+                    "top_assembly_rev_num": "J0",
+                    "version_id": "V04",
+                    "clei_code_num": "CNMV3N0CRC",
+                    "hb_rev_num": "0x01"
+                }
+            }
+        }
+    },
+    "show_inventory": {
+        "slot": {
+            "1": {
+                "rp": {
+                    "WS-C3560-48PS-S": {
+                        "name": "1",
+                        "descr": "WS-C3560-48PS",
+                        "pid": "WS-C3560-48PS-S",
+                        "vid": "V04  ",
+                        "sn": "CAT1123NK1P"
+                    }
+                }
+            }
+        }
+    },
+    "show_version_raw": "Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE11, RELEASE SOFTWARE (fc3)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2016 by Cisco Systems, Inc.\nCompiled Wed 17-Aug-16 13:07 by prod_rel_team\nImage text-base: 0x01000000, data-base: 0x02F00000\n\nROM: Bootstrap program is C3560 boot loader\nBOOTLDR: C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)\n\nSwitch uptime is 5 minutes\nSystem returned to ROM by power-on\nSystem image file is \"flash:/c3560-ipservicesk9-mz.122-55.SE11.bin\"\n\n\nThis product contains cryptographic features and is subject to United\nStates and local country laws governing import, export, transfer and\nuse. Delivery of Cisco cryptographic products does not imply\nthird-party authority to import, export, distribute or use encryption.\nImporters, exporters, distributors and users are responsible for\ncompliance with U.S. and local country laws. By using this product you\nagree to comply with applicable laws and regulations. If you are unable\nto comply with U.S. and local laws, return this product immediately.\n\nA summary of U.S. laws governing Cisco cryptographic products may be found at:\nhttp://www.cisco.com/wwl/export/crypto/tool/stqrg.html\n\nIf you require further assistance please contact us by sending email to\nexport@cisco.com.\n\ncisco WS-C3560-48PS (PowerPC405) processor (revision N0) with 131072K bytes of memory.\nProcessor board ID CAT1123NK1P\nLast reset from power-on\n1 Virtual Ethernet interface\n48 FastEthernet interfaces\n4 Gigabit Ethernet interfaces\nThe password-recovery mechanism is enabled.\n\n512K bytes of flash-simulated non-volatile configuration memory.\nBase ethernet MAC Address       : 00:1C:57:0E:81:00\nMotherboard assembly number     : 73-9676-12\nPower supply part number        : 341-0029-05\nMotherboard serial number       : CAT11235BFG\nPower supply serial number      : LIT11190F33\nModel revision number           : N0\nMotherboard revision number     : B0\nModel number                    : WS-C3560-48PS-S\nSystem serial number            : CAT1123NK1P\nSFP Module assembly part number : 73-7757-03\nSFP Module revision Number      : A0\nSFP Module serial number        : CAT11225RW1\nTop Assembly Part Number        : 800-25859-03\nTop Assembly Revision Number    : J0\nVersion ID                      : V04\nCLEI Code Number                : CNMV3N0CRC\nHardware Board Revision Number  : 0x01\n\n\nSwitch Ports Model              SW Version            SW Image                 \n------ ----- -----              ----------            ----------               \n\n\nConfiguration register is 0xF",
+    "show_inventory_raw": "NAME: \"1\", DESCR: \"WS-C3560-48PS\"\nPID: WS-C3560-48PS-S   , VID: V04  , SN: CAT1123NK1P\n"
+}

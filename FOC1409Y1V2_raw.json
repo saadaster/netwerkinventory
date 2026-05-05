@@ -1,0 +1,78 @@
+{
+    "show_version": {
+        "version": {
+            "version_short": "12.2",
+            "platform": "C3750",
+            "version": "12.2(50)SE5",
+            "image_id": "C3750-IPSERVICES-M",
+            "os": "IOS",
+            "image_type": "production image",
+            "compiled_date": "Tue 28-Sep-10 12:56",
+            "compiled_by": "prod_rel_team",
+            "image": {
+                "text_base": "0x01000000",
+                "data_base": "0x02C00000"
+            },
+            "rom": "Bootstrap program is C3750 boot loader",
+            "bootldr": "C3750 Boot Loader (C3750-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)",
+            "hostname": "Switch",
+            "uptime": "21 minutes",
+            "returned_to_rom_by": "power-on",
+            "system_image": "flash:/c3750-ipservices-mz.122-50.SE5/c3750-ipservices-mz.122-50.SE5.bin",
+            "chassis": "WS-C3750G-24TS-1U",
+            "main_mem": "131072",
+            "processor_type": "PowerPC405",
+            "rtr_type": "WS-C3750G-24TS-1U",
+            "chassis_sn": "FOC1409Y1V2",
+            "last_reload_reason": "power-on",
+            "number_of_intfs": {
+                "Virtual Ethernet": "1",
+                "Gigabit Ethernet": "28"
+            },
+            "mem_size": {
+                "flash-simulated non-volatile configuration": "512"
+            },
+            "curr_config_register": "0xF",
+            "switch_num": {
+                "2": {
+                    "ports": "28",
+                    "model": "WS-C3750G-24TS-1U",
+                    "sw_ver": "12.2(50)SE5",
+                    "sw_image": "C3750-IPSERVICES-M",
+                    "active": true,
+                    "mac_address": "1C:AA:07:EA:67:80",
+                    "mb_assembly_num": "73-10219-09",
+                    "power_supply_part_nr": "341-0098-02",
+                    "mb_sn": "FOC151456J7",
+                    "power_supply_sn": "DCA150891X5",
+                    "model_rev_num": "H0",
+                    "mb_rev_num": "A0",
+                    "model_num": "WS-C3750G-24TS-E1U",
+                    "system_sn": "FOC1409Y1V2",
+                    "top_assembly_part_num": "800-26859-03",
+                    "top_assembly_rev_num": "C0",
+                    "version_id": "V06",
+                    "clei_code_num": "COMB600BRA",
+                    "hb_rev_num": "0x09"
+                }
+            }
+        }
+    },
+    "show_inventory": {
+        "slot": {
+            "2": {
+                "rp": {
+                    "WS-C3750G-24TS-E1U": {
+                        "name": "2",
+                        "descr": "WS-C3750G-24TS-1U",
+                        "pid": "WS-C3750G-24TS-E1U",
+                        "vid": "V06",
+                        "sn": "FOC1409Y1V2"
+                    }
+                }
+            }
+        }
+    },
+    "show_version_raw": "Cisco IOS Software, C3750 Software (C3750-IPSERVICES-M), Version 12.2(50)SE5, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2010 by Cisco Systems, Inc.\nCompiled Tue 28-Sep-10 12:56 by prod_rel_team\nImage text-base: 0x01000000, data-base: 0x02C00000\n\nROM: Bootstrap program is C3750 boot loader\nBOOTLDR: C3750 Boot Loader (C3750-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)\n\nSwitch uptime is 21 minutes\nSystem returned to ROM by power-on\nSystem image file is \"flash:/c3750-ipservices-mz.122-50.SE5/c3750-ipservices-mz.122-50.SE5.bin\"\n\ncisco WS-C3750G-24TS-1U (PowerPC405) processor (revision H0) with 131072K bytes of memory.\nProcessor board ID FOC1409Y1V2\nLast reset from power-on\n1 Virtual Ethernet interface\n28 Gigabit Ethernet interfaces\nThe password-recovery mechanism is enabled.\n\n512K bytes of flash-simulated non-volatile configuration memory.\nBase ethernet MAC Address       : 1C:AA:07:EA:67:80\nMotherboard assembly number     : 73-10219-09\nPower supply part number        : 341-0098-02\nMotherboard serial number       : FOC151456J7\nPower supply serial number      : DCA150891X5\nModel revision number           : H0\nMotherboard revision number     : A0\nModel number                    : WS-C3750G-24TS-E1U\nSystem serial number            : FOC1409Y1V2\nTop Assembly Part Number        : 800-26859-03\nTop Assembly Revision Number    : C0\nVersion ID                      : V06\nCLEI Code Number                : COMB600BRA\nHardware Board Revision Number  : 0x09\n\n\nSwitch Ports Model              SW Version            SW Image                 \n------ ----- -----              ----------            ----------               \n\n\nConfiguration register is 0xF",
+    "show_inventory_raw": "NAME: \"2\", DESCR: \"WS-C3750G-24TS-1U\"\nPID: WS-C3750G-24TS-E1U, VID: V06, SN: FOC1409Y1V2\n"
+}

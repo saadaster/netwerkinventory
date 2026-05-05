@@ -1,0 +1,38 @@
+{
+    "show_version": {
+        "version": {
+            "version_short": "12.2",
+            "platform": "C3550",
+            "version": "12.2(25)SEE3",
+            "image_id": "C3550-IPSERVICESK9-M",
+            "os": "IOS",
+            "image_type": "developer image",
+            "compiled_date": "Thu 22-Feb-07 15:35",
+            "compiled_by": "myl",
+            "image": {
+                "text_base": "0x00003000",
+                "data_base": "0x00DC116C"
+            },
+            "rom": "Bootstrap program is C3550 boot loader",
+            "hostname": "Switch",
+            "uptime": "9 minutes",
+            "returned_to_rom_by": "power-on",
+            "system_image": "flash:c3550-ipservicesk9-mz.122-25.SEE3/c3550-ipservicesk9-mz.122-25.SEE3.bin",
+            "chassis": "WS-C3550-48",
+            "main_mem": "65526",
+            "processor_type": "PowerPC",
+            "rtr_type": "WS-C3550-48",
+            "chassis_sn": "CAT0713X0CS",
+            "last_reload_reason": "warm-reset",
+            "number_of_intfs": {
+                "FastEthernet": "48",
+                "Gigabit Ethernet": "2"
+            },
+            "processor_board_flash": "384K",
+            "curr_config_register": "0x10F"
+        }
+    },
+    "show_inventory": "NAME: \"Switch\", DESCR: \"Cisco Catalyst 3550 48 10/100 baseT ports + 2 Gig uplinks fixed configuration Layer 2/3 Ethernet Switch\"\nPID: WS-C3550-48       , VID: H0 , SN: CAT0713X0CS\n\n",
+    "show_version_raw": "Cisco IOS Software, C3550 Software (C3550-IPSERVICESK9-M), Version 12.2(25)SEE3, RELEASE SOFTWARE (fc2)\nCopyright (c) 1986-2007 by Cisco Systems, Inc.\nCompiled Thu 22-Feb-07 15:35 by myl\nImage text-base: 0x00003000, data-base: 0x00DC116C\n\nROM: Bootstrap program is C3550 boot loader\n\nSwitch uptime is 9 minutes\nSystem returned to ROM by power-on\nSystem image file is \"flash:c3550-ipservicesk9-mz.122-25.SEE3/c3550-ipservicesk9-mz.122-25.SEE3.bin\"\n\n\nThis product contains cryptographic features and is subject to United\nStates and local country laws governing import, export, transfer and\nuse. Delivery of Cisco cryptographic products does not imply\nthird-party authority to import, export, distribute or use encryption.\nImporters, exporters, distributors and users are responsible for\ncompliance with U.S. and local country laws. By using this product you\nagree to comply with applicable laws and regulations. If you are unable\nto comply with U.S. and local laws, return this product immediately.\n\nA summary of U.S. laws governing Cisco cryptographic products may be found at:\nhttp://www.cisco.com/wwl/export/crypto/tool/stqrg.html\n\nIf you require further assistance please contact us by sending email to\nexport@cisco.com.\n\nCisco WS-C3550-48 (PowerPC) processor (revision H0) with 65526K/8192K bytes of memory.\nProcessor board ID CAT0713X0CS\nLast reset from warm-reset\nRunning Layer2/3 Switching Image\n\nEthernet-controller 1 has 12 Fast Ethernet/IEEE 802.3 interfaces\n\nEthernet-controller 2 has 12 Fast Ethernet/IEEE 802.3 interfaces\n\nEthernet-controller 3 has 12 Fast Ethernet/IEEE 802.3 interfaces\n\nEthernet-controller 4 has 12 Fast Ethernet/IEEE 802.3 interfaces\n\nEthernet-controller 5 has 1 Gigabit Ethernet/IEEE 802.3 interface\n\nEthernet-controller 6 has 1 Gigabit Ethernet/IEEE 802.3 interface\n\n48 FastEthernet interfaces\n2 Gigabit Ethernet interfaces\n\nThe password-recovery mechanism is enabled.\n384K bytes of flash-simulated NVRAM.\nBase ethernet MAC Address: 00:0C:85:8E:9B:00\nMotherboard assembly number: 73-5701-07\nPower supply part number: 34-0967-01\nMotherboard serial number: CAT0713006N\nPower supply serial number: LIT063008T8\nModel revision number: H0\nMotherboard revision number: A0\nModel number: WS-C3550-48-SMI\nSystem serial number: CAT0713X0CS\nConfiguration register is 0x10F",
+    "show_inventory_raw": "NAME: \"Switch\", DESCR: \"Cisco Catalyst 3550 48 10/100 baseT ports + 2 Gig uplinks fixed configuration Layer 2/3 Ethernet Switch\"\nPID: WS-C3550-48       , VID: H0 , SN: CAT0713X0CS\n"
+}

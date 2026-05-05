@@ -1,0 +1,79 @@
+{
+    "show_version": {
+        "version": {
+            "version_short": "12.2",
+            "platform": "C3750",
+            "version": "12.2(55)SE10",
+            "image_id": "C3750-IPSERVICESK9-M",
+            "os": "IOS",
+            "image_type": "production image",
+            "compiled_date": "Wed 11-Feb-15 11:40",
+            "compiled_by": "prod_rel_team",
+            "image": {
+                "text_base": "0x01000000",
+                "data_base": "0x02F00000"
+            },
+            "rom": "Bootstrap program is C3750 boot loader",
+            "bootldr": "C3750 Boot Loader (C3750-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)",
+            "hostname": "Switch",
+            "uptime": "4 minutes",
+            "returned_to_rom_by": "power-on",
+            "system_image": "flash:c3750-ipservicesk9-mz.122-55.SE10.bin",
+            "chassis": "WS-C3750-48TS",
+            "main_mem": "131072",
+            "processor_type": "PowerPC405",
+            "rtr_type": "WS-C3750-48TS",
+            "chassis_sn": "FDO1136X32Y",
+            "last_reload_reason": "power-on",
+            "number_of_intfs": {
+                "Virtual Ethernet": "1",
+                "FastEthernet": "48",
+                "Gigabit Ethernet": "4"
+            },
+            "mem_size": {
+                "flash-simulated non-volatile configuration": "512"
+            },
+            "curr_config_register": "0xF",
+            "switch_num": {
+                "1": {
+                    "ports": "52",
+                    "model": "WS-C3750-48TS",
+                    "sw_ver": "12.2(55)SE10",
+                    "sw_image": "C3750-IPSERVICESK9-M",
+                    "active": true,
+                    "mac_address": "00:1D:A2:18:6B:80",
+                    "mb_assembly_num": "73-9680-10",
+                    "power_supply_part_nr": "341-0028-02",
+                    "mb_sn": "FDO113503JS",
+                    "power_supply_sn": "LIT11250PY5",
+                    "model_rev_num": "P0",
+                    "mb_rev_num": "B0",
+                    "model_num": "WS-C3750-48TS-E",
+                    "system_sn": "FDO1136X32Y",
+                    "top_assembly_part_num": "800-26384-02",
+                    "top_assembly_rev_num": "F0",
+                    "version_id": "V05",
+                    "clei_code_num": "CNMV400CRE",
+                    "hb_rev_num": "0x01"
+                }
+            }
+        }
+    },
+    "show_inventory": {
+        "slot": {
+            "1": {
+                "rp": {
+                    "WS-C3750-48TS-E": {
+                        "name": "1",
+                        "descr": "WS-C3750-48TS",
+                        "pid": "WS-C3750-48TS-E",
+                        "vid": "V05  ",
+                        "sn": "FDO1136X32Y"
+                    }
+                }
+            }
+        }
+    },
+    "show_version_raw": "Cisco IOS Software, C3750 Software (C3750-IPSERVICESK9-M), Version 12.2(55)SE10, RELEASE SOFTWARE (fc2)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2015 by Cisco Systems, Inc.\nCompiled Wed 11-Feb-15 11:40 by prod_rel_team\nImage text-base: 0x01000000, data-base: 0x02F00000\n\nROM: Bootstrap program is C3750 boot loader\nBOOTLDR: C3750 Boot Loader (C3750-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)\n\nSwitch uptime is 3 minutes\nSystem returned to ROM by power-on\nSystem image file is \"flash:c3750-ipservicesk9-mz.122-55.SE10.bin\"\n\n\nThis product contains cryptographic features and is subject to United\nStates and local country laws governing import, export, transfer and\nuse. Delivery of Cisco cryptographic products does not imply\nthird-party authority to import, export, distribute or use encryption.\nImporters, exporters, distributors and users are responsible for\ncompliance with U.S. and local country laws. By using this product you\nagree to comply with applicable laws and regulations. If you are unable\nto comply with U.S. and local laws, return this product immediately.\n\nA summary of U.S. laws governing Cisco cryptographic products may be found at:\nhttp://www.cisco.com/wwl/export/crypto/tool/stqrg.html\n\nIf you require further assistance please contact us by sending email to\nexport@cisco.com.\n\ncisco WS-C3750-48TS (PowerPC405) processor (revision P0) with 131072K bytes of memory.\nProcessor board ID FDO1136X32Y\nLast reset from power-on\n1 Virtual Ethernet interface\n48 FastEthernet interfaces\n4 Gigabit Ethernet interfaces\nThe password-recovery mechanism is disabled.\n\n512K bytes of flash-simulated non-volatile configuration memory.\nBase ethernet MAC Address       : 00:1D:A2:18:6B:80\nMotherboard assembly number     : 73-9680-10\nPower supply part number        : 341-0028-02\nMotherboard serial number       : FDO113503JS\nPower supply serial number      : LIT11250PY5\nModel revision number           : P0\nMotherboard revision number     : B0\nModel number                    : WS-C3750-48TS-E\nSystem serial number            : FDO1136X32Y\nSFP Module assembly part number : 73-7757-03\nSFP Module revision Number      : A0\nSFP Module serial number        : FDO113608G6\nTop Assembly Part Number        : 800-26384-02\nTop Assembly Revision Number    : F0\nVersion ID                      : V05\nCLEI Code Number                : CNMV400CRE\nHardware Board Revision Number  : 0x01\n\n\nSwitch Ports Model              SW Version            SW Image                 \n------ ----- -----              ----------            ----------               \n\n\nConfiguration register is 0xF",
+    "show_inventory_raw": "NAME: \"1\", DESCR: \"WS-C3750-48TS\"\nPID: WS-C3750-48TS-E   , VID: V05  , SN: FDO1136X32Y\n"
+}
