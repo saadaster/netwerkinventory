@@ -1,0 +1,84 @@
+2026-05-11 08:59:04,754 [INFO] [01] Verbinden via console op /dev/ttyUSB0 …
+2026-05-11 08:59:04,754 [INFO]          Sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 08:59:04,764 [ERROR] [01] Onverwachte fout: device /dev/ttyUSB0 not found. available devices are: 
+Traceback (most recent call last):
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 200, in check_serial_port
+    cdc = next(serial.tools.list_ports.grep(name))
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/devasc/inventory/test.py", line 231, in main
+    with ConnectHandler(**cisco_device, session_log=SESSION_LOG) as connection:
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 266, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 285, in __init__
+    comm_port = check_serial_port(comm_port)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 208, in check_serial_port
+    raise ValueError(msg)
+ValueError: device /dev/ttyUSB0 not found. available devices are: 
+2026-05-11 08:59:04,767 [ERROR]   Check sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 08:59:27,872 [INFO] [01] Verbinden via console op /dev/ttyUSB0 …
+2026-05-11 08:59:27,872 [INFO]          Sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 08:59:27,881 [ERROR] [01] Onverwachte fout: device /dev/ttyUSB0 not found. available devices are: 
+Traceback (most recent call last):
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 200, in check_serial_port
+    cdc = next(serial.tools.list_ports.grep(name))
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/devasc/inventory/test.py", line 231, in main
+    with ConnectHandler(**cisco_device, session_log=SESSION_LOG) as connection:
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 266, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 285, in __init__
+    comm_port = check_serial_port(comm_port)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 208, in check_serial_port
+    raise ValueError(msg)
+ValueError: device /dev/ttyUSB0 not found. available devices are: 
+2026-05-11 08:59:27,882 [ERROR]   Check sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 08:59:36,895 [INFO] [01] Verbinden via console op /dev/ttyUSB0 …
+2026-05-11 08:59:36,896 [INFO]          Sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 08:59:36,905 [ERROR] [01] Onverwachte fout: device /dev/ttyUSB0 not found. available devices are: 
+Traceback (most recent call last):
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 200, in check_serial_port
+    cdc = next(serial.tools.list_ports.grep(name))
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/devasc/inventory/test.py", line 231, in main
+    with ConnectHandler(**cisco_device, session_log=SESSION_LOG) as connection:
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 266, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 285, in __init__
+    comm_port = check_serial_port(comm_port)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 208, in check_serial_port
+    raise ValueError(msg)
+ValueError: device /dev/ttyUSB0 not found. available devices are: 
+2026-05-11 08:59:36,907 [ERROR]   Check sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 09:00:57,801 [INFO] [04] Verbinden via console op /dev/ttyUSB0 …
+2026-05-11 09:00:57,801 [INFO]          Sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 09:00:57,812 [ERROR] [04] Onverwachte fout: device /dev/ttyUSB0 not found. available devices are: 
+Traceback (most recent call last):
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 200, in check_serial_port
+    cdc = next(serial.tools.list_ports.grep(name))
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/devasc/inventory/test.py", line 231, in main
+    with ConnectHandler(**cisco_device, session_log=SESSION_LOG) as connection:
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 266, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 285, in __init__
+    comm_port = check_serial_port(comm_port)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 208, in check_serial_port
+    raise ValueError(msg)
+ValueError: device /dev/ttyUSB0 not found. available devices are: 
+2026-05-11 09:00:57,813 [ERROR]   Check sessie log: /home/devasc/inventory/netmiko_session.log
