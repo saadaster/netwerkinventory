@@ -82,3 +82,48 @@ Traceback (most recent call last):
     raise ValueError(msg)
 ValueError: device /dev/ttyUSB0 not found. available devices are: 
 2026-05-11 09:00:57,813 [ERROR]   Check sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 09:37:16,982 [INFO] [0004] Verbinden via console op /dev/ttyUSB0 …
+2026-05-11 09:37:16,983 [INFO]          Sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 09:37:17,008 [ERROR] [0004] Onverwachte fout: device /dev/ttyUSB0 not found. available devices are: 
+Traceback (most recent call last):
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 200, in check_serial_port
+    cdc = next(serial.tools.list_ports.grep(name))
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/devasc/inventory/test.py", line 231, in main
+    with ConnectHandler(**cisco_device, session_log=SESSION_LOG) as connection:
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 266, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 285, in __init__
+    comm_port = check_serial_port(comm_port)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/utilities.py", line 208, in check_serial_port
+    raise ValueError(msg)
+ValueError: device /dev/ttyUSB0 not found. available devices are: 
+2026-05-11 09:37:17,023 [ERROR]   Check sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 09:46:14,470 [INFO] [2501682] Verbinden via console op /dev/ttyUSB0 …
+2026-05-11 09:46:14,477 [INFO]          Sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 09:46:35,053 [ERROR] [2501682] Onverwachte fout: Failed to enter enable mode. Please ensure you pass the 'secret' argument to ConnectHandler.
+Traceback (most recent call last):
+  File "/home/devasc/inventory/test.py", line 233, in main
+    connection.enable()
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/cisco_base_connection.py", line 18, in enable
+    return super().enable(cmd=cmd, pattern=pattern, re_flags=re_flags)
+  File "/home/devasc/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 1575, in enable
+    raise ValueError(msg)
+ValueError: Failed to enter enable mode. Please ensure you pass the 'secret' argument to ConnectHandler.
+2026-05-11 09:46:35,054 [ERROR]   Check sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 13:07:32,988 [INFO] [0] Verbinden via console op /dev/ttyUSB0 …
+2026-05-11 13:07:32,988 [INFO]          Sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 13:08:53,808 [INFO] [0] Verbonden! Gegevens ophalen…
+2026-05-11 13:09:04,696 [INFO] [0] Verbinding gesloten. Gegevens verwerken…
+2026-05-11 13:09:04,696 [INFO] [0] Genie parse incomplete — using regex fallback.
+2026-05-11 13:09:04,704 [WARNING] [0] SN 'FOC1038X23S' staat al in de CSV — rij NIET toegevoegd.
+2026-05-11 13:11:04,533 [INFO] [0] Verbinden via console op /dev/ttyUSB0 …
+2026-05-11 13:11:04,533 [INFO]          Sessie log: /home/devasc/inventory/netmiko_session.log
+2026-05-11 13:11:22,286 [INFO] [0] Verbonden! Gegevens ophalen…
+2026-05-11 13:11:33,160 [INFO] [0] Verbinding gesloten. Gegevens verwerken…
+2026-05-11 13:11:33,160 [INFO] [0] Genie parse incomplete — using regex fallback.
+2026-05-11 13:11:33,161 [WARNING] [0] SN 'FOC1038X23S' staat al in de CSV — rij NIET toegevoegd.
